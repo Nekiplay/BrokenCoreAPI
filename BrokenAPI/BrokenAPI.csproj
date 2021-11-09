@@ -57,6 +57,7 @@
     <Compile Include="Data\Forum.cs" />
     <Compile Include="Data\Me.cs" />
     <Compile Include="Data\Pagination.cs" />
+    <Compile Include="Data\Post.cs" />
     <Compile Include="Data\ProfileBannerUrls.cs" />
     <Compile Include="Data\Question.cs" />
     <Compile Include="Data\Resource.cs" />

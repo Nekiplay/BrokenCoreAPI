@@ -8,12 +8,11 @@ namespace Tests
         static void Main(string[] args)
         {
             BrokenCoreAPI api = new BrokenCoreAPI("");
-            var user = api.threads.Get();
+            var user = api.threads.posts.Get(23553);
             foreach (var u in user)
             {
-                Console.WriteLine(u.title);
-                Console.WriteLine(u.username);
-                Console.WriteLine(u.Forum.title);
+                Console.WriteLine("Message: " + u.message);
+                Console.WriteLine("Author: " + u.username);
                 Console.WriteLine();
             }
             Console.ReadLine();
