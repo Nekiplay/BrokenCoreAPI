@@ -45,14 +45,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BrokenCoreAPI.cs" />
+    <Compile Include="Data\Article.cs" />
     <Compile Include="Data\AvatarUrls.cs" />
+    <Compile Include="Data\Breadcrumb.cs" />
     <Compile Include="Data\Category.cs" />
     <Compile Include="Data\CurrentFile.cs" />
     <Compile Include="Data\CustomFields.cs" />
     <Compile Include="Data\DescriptionAttachment.cs" />
+    <Compile Include="Data\Discussion.cs" />
+    <Compile Include="Data\Dob.cs" />
+    <Compile Include="Data\Forum.cs" />
     <Compile Include="Data\Me.cs" />
+    <Compile Include="Data\Pagination.cs" />
     <Compile Include="Data\ProfileBannerUrls.cs" />
+    <Compile Include="Data\Question.cs" />
     <Compile Include="Data\Resource.cs" />
+    <Compile Include="Data\Thread.cs" />
+    <Compile Include="Data\TypeData.cs" />
     <Compile Include="Data\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

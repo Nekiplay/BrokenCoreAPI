@@ -7,11 +7,15 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            BrokenCoreAPI api = new BrokenCoreAPI("API Key");
-            var resource = api.resources.Get(1175);
-            int version = 0;
-            int.TryParse(resource.version.Replace(".", ""), out version);
-            Console.WriteLine(version);
+            BrokenCoreAPI api = new BrokenCoreAPI("");
+            var user = api.threads.Get();
+            foreach (var u in user)
+            {
+                Console.WriteLine(u.title);
+                Console.WriteLine(u.username);
+                Console.WriteLine(u.Forum.title);
+                Console.WriteLine();
+            }
             Console.ReadLine();
         }
     }
